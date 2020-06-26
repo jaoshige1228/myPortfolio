@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN";
+}
+h1,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー関連 */
+header{
+  background: black;
+  color: white;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header h1{
+  font-size: 48px;
+}
+
+
+/* 概要関連 */
+.outline{
+  margin-bottom: 40px;
+}
+.outline li, .createReason > h2, .ACDButton{
+  background: rgb(235, 234, 234);
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.outline p{
+  padding: 10px 0;
+  font-size: 18px;
+}
+.function p, .function h3{
+  padding: 0 !important;
+  line-height: 32px;
+  /* margin: 0 !important; */
+}
+.function h3{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.content{
+  margin-bottom: 30px;
+}
+/* TRPG解説関連 */
+.ACDButton{
+  cursor: pointer;
+}
+.ACDButton:hover{
+  opacity: 0.7;
+}
+.TRPGWrap{
+  background: rgb(248, 248, 248);
+  padding-top: 16px;
+  display: none;
+  /* border: 1px solid rgb(220, 220, 220); */
+}
+.TRPGWrap > section{
+  border: 1px solid gray;
+  margin: 10px;
+}
+.TRPGWrap > section > p{
+  text-align: right;
+  padding-right: 30px;
+}
+.ACDmark{
+  margin-right: 10px;
+}
+.quote{
+  background: rgb(220,220,255);
+  margin: 24px;
+  border-radius: 8px;
+  font-style: oblique;
+  font-size: 17px;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.illustSectionsWrap{
+  padding-top: 20px;
+  /* background: lime; */
+}
+.illustSectionsWrap > h3{
+  /* background: blue; */
+  background: -moz-linear-gradient(top, lightblue, white);
+  background: -webkit-linear-gradient(top, lightblue, white);
+  background: linear-gradient(to bottom, lightblue, white);
+  text-align: center;
+  font-size: 30px;
+  width: 500px;
+  margin: 0 auto;
+}
+.illustSections{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  /* background: lightgreen; */
+}
+.whatTRPG{
+  /* background: lightblue; */
+}
+
+
+/* 製作理由関連 */
+.createReason{
+  background: lightyellow;
+  margin-top: 20px;
+}
+
+
+
+
+
+.illustSection{
+  display: flex;
+}
+.illustSection:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.createIllustWrap{
+  background: maroon;
+  display: flex;
+}
+.createIllust{
+  background: yellowgreen;
+}
+
+.createIllust img{
+  display: block;
+}
+
+
+/* フッター */
+footer{
+  height: 80px;
+  background: black;
+  display: flex;
+  color: rgba(255,255,255,0.8);
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.backhome{
+  display: block;
+  margin-left: 20px;
+  position: absolute;
+  left: 0;
+}
