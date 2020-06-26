@@ -134,4 +134,18 @@ section{
   .work1 img:hover{
     opacity: 1;
   }
+  .introductionText{
+    width: 350px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .work1{
+    width: 350px;
+    margin-bottom: 50px;
+  }
+
+  .skillSet div{
+    width: 350px;
+    margin: 0 auto;
+  }
 }

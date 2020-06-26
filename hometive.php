@@ -13,7 +13,7 @@
 <body>
   <header>
     <span class="backhome"><a href="/"><img src="images/home.png" alt=""></a></span>
-    <h1>〜ほめティブ日記〜</h1>
+    <h1>ほめティブ日記</h1>
   </header>
 
   <section class="outline">

@@ -44,8 +44,8 @@
     <h1>〜成果物〜</h1>
     <div class="work1 lara">
       <a href="/hometive.php" target="_blank"><img src="images/lara.png" alt="ララの顔"></a>
+      <p>美少女キャラクターが<br>褒めてくれる日記です</p>
     </div>
-    <p>美少女キャラクターが褒めてくれる日記です</p>
     <!-- <div class="work1">
       <a href="/coc_chat.php" target="_blank"><img src="images/unti.JPG" alt="gazou"></a>
     </div>
