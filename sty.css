@@ -41,6 +41,10 @@ section{
   margin: 0;
 }
 
+.lang{
+  font-weight: bold;
+  background: yellow;
+}
 .me{
   background-color: rgb(230, 230, 230);
 }
