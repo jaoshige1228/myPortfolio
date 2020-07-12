@@ -42,14 +42,18 @@
 
   <section class="work">
     <h1>〜成果物〜</h1>
-    <div class="work1 lara">
-      <a href="/hometive.php" target="_blank"><img src="images/lara.png" alt="ララの顔"></a>
-      <p>美少女キャラクターが<br>褒めてくれる日記です</p>
+    <div class="workWrap">
+      <div class="work1 lara">
+        <a href="/hometive.php" target="_blank"><img src="images/lara.png" alt="ララの顔"></a>
+        <p>美少女キャラクターが<br>褒めてくれる日記です</p>
+      </div>
+
+      <div class="work1 coc">
+        <a href="/coc_chat.php" target="_blank"><img src="images/coc_chat.png" alt="ララの顔"></a>
+        <p>クトゥルフ神話TRPGを遊ぶのに<br>特化したチャットサイトです</p>
+      </div>
     </div>
-    <!-- <div class="work1">
-      <a href="/coc_chat.php" target="_blank"><img src="images/unti.JPG" alt="gazou"></a>
-    </div>
-    <p>クトゥルフ神話TRPGを遊ぶことに特化したチャットサイトです</p> -->
+
   </section>
 
   <footer>

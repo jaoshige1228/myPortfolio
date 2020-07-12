@@ -71,6 +71,13 @@
         </p>
       </div>
 
+      <div class="content">
+        <li>開発期間</li>
+        <p>
+          2020年6月〜2020年7月(約1ヶ月間)
+        </p>
+      </div>
+
       <div class="content function">
         <li>工夫点</li>
         <h3>〜設計をしっかりと準備〜</h3>

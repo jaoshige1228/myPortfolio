@@ -18,20 +18,26 @@
 
   <section class="outline">
     <ul>
-      <li>概要</li>
-      <p>
-        「クトゥルフの呼び声」、通称COC(Call of Cthuluhu)というTRPG(テーブルトーク・ロールプレイングゲーム)を遊ぶことに特化したチャットサイトです。
-      </p>
+      <div class="content">
+        <li>概要</li>
+        <p>
+          「クトゥルフの呼び声」、通称COC(Call of Cthuluhu)というTRPG(テーブルトーク・ロールプレイングゲーム)を遊ぶことに特化したチャットサイトです。
+        </p>
+      </div>
 
-      <li>サイトリンク</li>
-      <p>
-        <a href="https://positive-diary-555.herokuapp.com" target="_blank">https://positive-diary-555.herokuapp.com</a>
-      </p>
+      <div class="content">
+        <li>サイトリンク</li>
+        <p>
+          <a href="https://coc-chat-555.herokuapp.com/" target="_blank">https://coc-chat-555.herokuapp.com/</a>
+        </p>
+      </div>
       
-      <li>コード</li>
-      <p>
-        <a href="https://github.com/jaoshige1228/coc_chat" target="_blank">https://github.com/jaoshige1228/coc_chat</a>
-      </p>
+      <div class="content">
+        <li>コード</li>
+        <p>
+          <a href="https://github.com/jaoshige1228/coc_chat" target="_blank">https://github.com/jaoshige1228/coc_chat</a>
+        </p>
+      </div>
 
       <div class="content function">
         <li>機能</li>
@@ -47,21 +53,24 @@
         <p>・登録したキャラシと連携し、アイコンや名前を自動設定</p>
         <p>・登録したキャラシと連携し、技能ロールをボタン一つで投下可能</p>
         <p>・同じ部屋にいる他のユーザーのキャラシを一括閲覧できる機能</p>
-        <h3>〜その他〜</h3>
-        <p>・ログイン及び新規登録機能</p>
-        <p>・CSRF対策として各フォームにはトークンをセット</p>
-        <p>・HTML部分に表示する文字にはエスケープ処理</p>
-        <p>・レスポンシブデザイン</p>
       </div>
-      <li>使用技術</li>
-      <p>
-        ＜フロントエンド＞HTML,CSS,JavaScript(jQuery)<br>
-        ＜バックエンド＞PHP<br>
-        ＜データベース＞MySQL<br>
-        ＜PaaS＞heroku
-      </p>
+      <div class="content">
+        <li>使用技術</li>
+        <p>
+          ＜フロントエンド＞HTML,CSS,JavaScript(jQuery)<br>
+          ＜バックエンド＞PHP<br>
+          ＜データベース＞MySQL<br>
+          ＜PaaS＞heroku
+        </p>
+      </div>
+      <div class="content">
+        <li>開発期間</li>
+        <p>
+          2020年2月〜2020年4月(約2ヶ月間)
+        </p>
+      </div>
 
-      <section class="whatTRPG">
+      <section class="content whatTRPG">
         <h3 class="ACDButton"><span class="ACDmark">▼</span>TRPGとは？</h3>
         <div class="TRPGWrap">
           <section>
